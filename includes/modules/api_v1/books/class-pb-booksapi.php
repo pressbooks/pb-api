@@ -483,6 +483,10 @@ class BooksApi extends Api {
 		if ( false === $transient ) {
 			global $wpdb;
 
+			if ( defined( WP_ENV ) && 'development' == WP_ENV ) {
+				error_log( $wpdb->prepare( "SELECT blog_id FROM {$wpdb->blogs} WHERE public = %d", '1' ) );
+			}
+
 			$result = $wpdb->get_col( $wpdb->prepare( "SELECT blog_id FROM {$wpdb->blogs} WHERE public = %d", '1' ) );
 
 			// blog id = 1 is not a book
