@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Pressbooks REST API
- * Description: JSON-based REST API for Pressbooks.
+ * Description: A JSON-based REST API for Pressbooks.
  * Version: 1.0
  * Plugin URI: https://github.com/pressbooks/pb-api/
  * License: GPL2+

@@ -479,13 +479,9 @@ class BooksApi extends Api {
 	 */
 	function getPublicBlogIds() {
 		$transient = get_transient( 'pb-api-public-bookids' );
-		error_log( print_r( $transient, true ) );
+
 		if ( false === $transient ) {
 			global $wpdb;
-
-			if ( defined( WP_ENV ) && 'development' == WP_ENV ) {
-				error_log( $wpdb->prepare( "SELECT blog_id FROM {$wpdb->blogs} WHERE public = %d", '1' ) );
-			}
 
 			$result = $wpdb->get_col( $wpdb->prepare( "SELECT blog_id FROM {$wpdb->blogs} WHERE public = %d", '1' ) );
 
