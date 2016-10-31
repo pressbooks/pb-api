@@ -1,7 +1,6 @@
 {
   "name": "pressbooks/pb-api",
   "license": "GPL-2.0+",
-  "version": "1.1.0",
   "description": "This plugin provides a JSON-based REST API for Pressbooks, an open source book publishing tool built on the WordPress multisite platform.",
   "homepage": "https://github.com/pressbooks/pressbooks",
   "authors": [
@@ -29,6 +28,7 @@
     "wp-coding-standards/wpcs": "^0.10"
   },
   "autoload": {
+    "files": ["pb-api.php"]
   },
   "archive" : {
     "exclude": [
