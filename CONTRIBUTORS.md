@@ -1,3 +1,3 @@
 # Contributors
 
-Version 1.0 of the Pressbooks REST API was developed by Brad Payne ([@bdolor](https://github.com/bdolor)).
+The Pressbooks REST API was developed by [Brad Payne](https://bradpayne.ca).

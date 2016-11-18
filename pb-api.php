@@ -3,9 +3,9 @@
  * Plugin Name: Pressbooks REST API
  * Plugin URI: https://github.com/pressbooks/pb-api
  * Description: A JSON-based REST API for Pressbooks.
- * Version: 1.1.0
- * Author: Book Oven Inc.
- * Author URI: https://pressbooks.org/
+ * Version: 1.1.1
+ * Author: Brad Payne
+ * Author URI: https://bradpayne.ca/
  * License: GPLv2
  */
 

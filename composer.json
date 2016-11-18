@@ -5,6 +5,11 @@
   "homepage": "https://github.com/pressbooks/pressbooks",
   "authors": [
     {
+      "name": "Brad Payne",
+      "email": "brad@bradpayne.ca",
+      "homepage": "https://bradpayne.ca"
+    },
+    {
       "name": "Book Oven Inc.",
       "email": "code@pressbooks.com",
       "homepage": "https://pressbooks.com"
