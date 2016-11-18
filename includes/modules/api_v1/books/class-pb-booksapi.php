@@ -1,7 +1,7 @@
 <?php
 
 /**
- * @author  Pressbooks <code@pressbooks.com>
+ * @author  Brad Payne <brad@bradpayne.ca>
  * @license GPLv2 (or any later version)
  */
 
